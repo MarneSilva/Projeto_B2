@@ -1,0 +1,94 @@
+html, body {
+  height: auto; /* Original 100% */
+  width: 100%;
+   /* background original #FFD480 */
+  background-color: #FFD480;
+  /* transform: translate (-50%, -50%) aqui */
+  }
+
+#logo {
+  height: auto; /* Original 32px. */
+  width: 50%;
+  position: absolute;  
+  left: -35px;
+  top: -25px;
+  max-width: 250px;
+  
+  
+  
+}
+
+#h3 {
+  top: 20%;
+  height: auto;
+  width: 80%;
+  max-width: 500px;
+  font-family: 'Balsamiq Sans', cursive;
+  color: #FFA64D;
+  position: absolute;
+  left: 22%;
+  right: 50px;
+  
+   
+}
+
+#map {
+  height: 100%;
+  position: absolute;
+  width: 85%;
+  top: 35%;
+  left: 8%;
+  border: solid orange 4px;
+  max-width: 1250px;
+  right: -1000%;
+  max-height: 500px;
+  
+}
+
+.itens {
+  /* margin-bottom: 25px / padding-left: 1150px */
+  font-family: 'Balsamiq Sans', cursive;
+  color: #b26e2a;
+  max-width: 300px;
+  position: absolute;
+  top: 1%; /* right: -6% */
+  right: -6%;
+  height: auto;
+  width: 68%;
+  text-align: center;
+     
+  
+}
+
+
+#sair {
+  color: #990000;
+  font-family: 'Balsamiq Sans', cursive;
+  max-width: 300px;
+  width: 100%;
+  position: absolute;
+  height: auto;
+
+}
+
+.botao {
+  width: 100%;
+  max-width: 250px;
+  top: 28%;
+  left: 47.5%;
+  position: absolute;
+}
+
+#button2 {
+  font-family: 'Balsamiq Sans', cursive;
+  color: rgb(179,110,42);
+  font-size: 15px;
+  line-height: 15px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
