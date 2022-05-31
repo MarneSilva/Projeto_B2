@@ -4,7 +4,7 @@
 
 O site consiste em uma aplicação de uma página do projeto inicial de UX, baseada em um site para refugiados da guerra na Ucrânia se hospedarem. A página em questão é uma que já era presente no projeto, e que possui o propósito de exibir um mapa com a função de auto-localizar o usuário. Em geral, o resultado final foi alcançado, e o mapa está funcionando como deveria.
 
-Em relação ao projeto gráfico de UX, algumas mudanças foram feitas quanto ao CSS, que agora está bem mais simples do que era inicialmente, de maneira a dar um olhar mais limpo ao site. Entrentanto, elementos essenciais como cores padronizadas, fontes e bordas foram mantidos.
+Em relação ao projeto gráfico de UX, algumas mudanças foram feitas quanto ao CSS, que agora está bem mais simples do que era inicialmente, de maneira a dar um olhar mais limpo ao site. Entrentanto, elementos essenciais como cores padronizadas, fontes e bordas foram mantidos. A responsividade foi ajustada, de modo que o site consiga se adaptar a diferentes dimensões de telas, em diversos aplicativos.
 
 Referente aos elementos do site, nota-se que temos ao total de 5 botões demonstrados na tela, mas apenas um deles realmente contribui para o funcionamento próprio daquele site. O único botão que de fato é elegível ao propósito é o botão 'Localizar', que está no meio do site e possui a aparência azul. Este botão aciona a função 'localizacao()', dentro do documento JavaScript, e ele é primordial para o funcionamento do mapa, já que é por ele que o site pede ao usuário a permissão de localização, a fim de estabelecer sua localização por GeoLocation e demonstrar a área do usuário no mapa. O restante dos botões são meramente ilustrativos, pois continham no design original do site, e não caberia a sua retirada.
 
